@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Automatic Task Predictor</title>
+    </head>
+    <link rel="stylesheet" href="./style.css">
+        
+   <body>
+       <!-- test 
+       <div class="split-screen">
+           <div class="split-screen__half">column A</div>
+           <div class="split-screen__half">column B</div>
+       </div>
+       -->
+
+
+       <!-- header -->
+        <div id="header">
+            <span id="formTitleSpan">Automatic Task Predictor</span>
+            <br>
+            <span id="formTitleSpan">for The Marketing Automation Team</span>  
+            <hr class="belowTitleHr">
+        </div>
+        <!-- split the screen -->
+        <div id="TaskDetails"> 
+                
+                <div id="leftSideForm">
+                    <span class="titleTask">Task Details:</span>
+                    <table>
+                        <tr>
+                            <td>Name of the Task:</td>
+                            <td><input type="name" id="TaskName" placeholder="1234 - CampaignName"></td>
+                        </tr>
+                        <tr>
+                            <td>Date of submittion:</td>
+                            <td><input type="date" id="dateSubmittion"></td>
+                        </tr>
+                        <tr>
+                            <td>MA Requester:
+                                <br>
+                                <span id="inputNote"></span>
+                            </td>
+                            <td>
+                                <select id="MARequester"></select>
+                            </td>                    
+                        </tr> 
+                        <tr>
+                            <td>MA Campaign Type:
+                                <br>
+                                <span id="inputNote"></span>
+                            </td>
+                            <td>
+                                <select id="MACampaignType"></select>
+                            </td>  
+                            <td>
+                                <!-- segment area-->
+                                <div id="segmentArea"></div>
+                            </td>                  
+                        </tr>  
+                        <tr>
+                            <td>MA Element:
+                                <br>
+                                <span id="inputNote"></span>
+                            </td>
+                            <td>
+                                <select id="MAElement"></select>
+                            </td>                    
+                        </tr>
+                        <tr>
+                            <td>MA Project:
+                                <br>
+                                <span id="inputNote"></span>
+                            </td>
+                            <td>
+                                <select id="MAProject"></select>
+                            </td>                    
+                        </tr>
+                        <tr>
+                            <td>MA Specialist Seniority:
+                                <br>
+                                <span id="inputNote"></span>
+                            </td>
+                            <td>
+                                <select id="MASpecialistSeniority"></select>
+                            </td>                    
+                        </tr>
+                        <tr>
+                            <td>MA Priority:
+                                <br>
+                                <span id="inputNote"></span>
+                            </td>
+                            <td>
+                                <select id="MAPriority"></select>
+                            </td>                    
+                        </tr>
+                        
+                    </table>
+                    <br>
+                    <div><button type="button" class= "button-6" id="calculateBtn">Do the Magic!</button></div>
+                </div>
+                
+                <div id="TaskResults">
+                    <div class="titleTask">Results:</div>
+                </div>
+                    <!--Edit Data Area -->
+    
+            <!-- <div id="editDataArea" style="color: white;">Edit Data Area</div> -->
+
+        </div>   
+
+     
+    
+
+   </body>
+   <script type="text/javascript" src="./app.js"></script>
+</html>

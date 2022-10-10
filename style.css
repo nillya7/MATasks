@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    /*background-color: #000021;*/
+    color: #adadad;
+    width: 100%;
+}
+
+
+/* top banner */
+#header {
+    text-align: center;
+    /*border: 1px solid blue; */
+    width: 100%;
+    margin-bottom: 50px; 
+    background-color: #c0e8fd; 
+    padding: 30px;
+    color:#000021;
+    position: fixed;
+    z-index: 1;
+}
+
+#formTitleSpan {
+    font-size: 50px;
+    
+}
+
+.belowTitleHr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+/* end top banner */
+
+.titleTask {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+
+/* father of 2 ares of the forms */ 
+#TaskDetails {
+    /*width: 100%;*/
+    top: 250px;
+    position: relative;
+    border: 1px solid white;
+}
+
+
+/* Left side - Form area */ 
+#leftSideForm {
+    padding: 30px;
+    width: 40%;
+    /*float: left;*/
+    left: 0;
+    position: absolute;
+    /*border: 1px solid red;*/
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px;
+    margin-left: 55px;
+}
+
+/* Right side of the results */
+#TaskResults {
+    padding: 30px;
+    width: 40%;
+    float: right;
+    /*position: absolute;*/
+    /*border: 1px solid blue;*/
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px;
+    margin-right: 55px;
+}
+
+
+
+/* edit data */
+
+#editDataArea {
+    background-color: #13c636;
+    position: absolute;
+}
+
+
+
+.editTheDataBtn {
+    width: 500px;
+    height: 50px;
+    background-color: #f887cc;
+}
+
+
+
+
+
+/* form design */
+input {
+    width: 100%;
+    border: 0px solid lightgray;
+    height: 29px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 7px;
+    background-color: #6bf5c0;
+}
+
+input:focus, select:focus {
+    outline: 0;
+    border-color: #adadad;
+}
+
+input::placeholder {
+    color: grey;
+    font-size: 12px;
+}
+
+select {
+    width: 100%;
+    border: 0px solid lightgray;
+    height: 29px; 
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 7px;
+    background-color: #6bf5c0;
+}
+
+option {
+    color: #000021;
+    
+}
+
+td {
+    padding: 5px;
+}
+
+
+
+#segmentArea {
+    font-size: 10px;
+}
+
+
+/* results area */ 
+
+.taskName {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+#estimatedTimeResults, #stressLevelOfTask {
+    font-size: 15px;
+    padding-bottom: 10px;
+
+}
+
+
+.divider {
+    border-top: 1px solid #bbb;
+    width: 100%;
+}
+
+
+
+
+/* test */
+.split-screen {
+    display: flex;
+}
+
+.split-screen__half {
+    flex: 1;
+}
+
+
+
+/* button */
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+
+/*
+
+#calculateBtn {
+    width: 80%;
+    border: 0px;
+    height: 45px;
+    font-size: 25px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #f887cc;
+}
+
+
+#calculateBtn:hover {
+    background-color: #DF79B7;
+
+}
+
+#calculateBtn:focus {
+    background-color: #FAB7E0;
+
+}
+*/
+
+
